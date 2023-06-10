@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Social and Economic Mobility of Latino Youth</title>
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="images/icons8-rocket-16 (1).png">
+
+  <!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,800;1,300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  
+<!-- Part 1: Navbar Starter Code -->
+
+<div class="navbar">
+  <ul>
+    <li><a href="#"><p>About</p></a></li>
+    <li><a href="#what-is-social-mobility"><p>What is Social Mobility?</p></a></li>
+    <li><a href="#why-is-it-important"><p>Why is it important?</p></a></li>
+    <li><a href="https://cmonagasromeroadvocacyprojectresourcesforstudents.cesarm15.repl.co/"><p>Resources for High School and College Students</p></a></li>
+    <li style="float: right;"><button id="theme-button">Toggle Dark Mode</button></li>
+    <!-- Stretch Challenge: Drop Down -->
+  </ul>
+</div>
+
+
+
+<!-- Part 2: Flexbox Layout Stater Code -->
+
+<div class="container">
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+</div>
+
+  <div class="header-container">
+  <h1 class="title">
+    Social and Economic Mobility of Latino Youth
+  </h1>
+  <h3 class="subtitle">
+    Bridging the achievement gap to enable social mobility among   Latino youth. 
+  </h3>
+  <div class = "header-image"><img class = "header-image" src="images/header-image.png" width=100% height="100%"></div>
+
+  <div class = "button">
+  <button class="text">Learn More</button>
+  <button class="text">Share your story</button>
+  </div> 
+
+  </div>
+
+   <div class = "what-is-social-mobility">
+     <a name = what-is-social-mobility id="#what-is-social-mobility">
+  <h2 class="title">
+    What is Social Mobility?
+  </h2>
+  <p class="text">
+    Social mobility refers to change in a person's socio-economic situation, either in relation to their parents (inter-generational mobility) or throughout their lifetime (intra-generational mobility).
+
+  <br>
+  <br>
+Social mobility is linked to equality of opportunity: the extent to which people have the same chances to do well in life regardless of the socio-economic background of their parents, their gender, age, sexual orientation, race, ethnicity, birthplace, or other circumstances beyond their control.
+  <br>
+  </p>
+  <div class="what-image">
+  <img class="what-image" src="images/why-important.jpg" height="300px";>
+  </div>
+  </div>
+
+  
+  <div class = "why-is-it-important">
+    <a name = why-is-it-important id="#why-is-it-important">
+  <h2 class="title">
+    Why is this important?
+  </h2>
+  <p class="text">
+In the Latino community, particularly in the US, access to equality of opportunity has not been uniform. Many immigrant families struggle to offer their children opportunties to which others are born into. Talking about ways to bridge the opportunity gap is imporant if we want to understand how to allow Latino youth to climb the socio-economic latter.
+  <br>
+  <br>
+    People from disadvantaged backgrounds have fewer opportunities to climb the socio-economic ladder. In European OECD countries, children with the greatest socio-economic disadvantage grow up to earn as much as 20% less as adults than those with more favourable childhoods. Across OECD countries, it takes nearly five generations for children from low-income families to approach the average income in their country. Unequal opportunities are not only a moral concern, they also undermine economic and social prosperity.
+  </p>
+
+  <div class="why-image">
+  <img class = "why-image" src="images/american-dream.png" height="300px">
+  </div>
+  </div>
+
+  <div class="petition" id="petition">
+
+    <h2 class="title">Sign Our Petition 📢</h2>
+    <div class="petition-container">
+
+
+      <div class="petition-para">
+        <p class="text">Latino youth face significant barriers to achieving social and economic mobility, including poverty, discrimination, and unequal access to education and job opportunities. We believe that everyone should have an equal opportunity to succeed and that investing in the education and job training of Latino youth is essential to building a stronger and more equitable society. Therefore, we call on our elected officials and community leaders to prioritize the needs of Latino youth by investing in education and job training programs that provide students with the skills and support they need to succeed in today's job market. Specifically, we demand that these programs be designed with the unique needs and challenges of Latino youth in mind and provide targeted support such as bilingual education, culturally sensitive mentoring, and access to job placement services. By investing in the education and job training of Latino youth, we can bridge the achievement gap, promote social and economic mobility, and build a brighter future for all.</p>
+      </div>
+
+      <div class="signatures">
+        <p class="text">🖊️ DJ from Brooklyn supports this.</p>
+        <p class="text">🖊️ Amy from Queens supports this.</p>
+        <p class="text">🖊️ Teresa from Harlem supports this.</p>
+        <div id="signatures" class="text"></div>
+
+      </div>
+
+    </div>
+
+  <!--- Sign Petition Form --->
+  <form id="sign-petition" title="sign-petition">
+      <label for="name-input" class="text">Name:</label>
+      <input type="text" id="name-input" required>
+    
+      <label for="hometown-input" class= "text">Hometown:</label>
+      <input type="text" id="hometown-input" required>
+    
+  </form>
+
+      <br><br>
+      <button id="sign-now-button" class="text" >Sign Now</button>
+      <br><br>
+
+</div>
+  
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="index.js"></script>
+</body>
+
+</html>
